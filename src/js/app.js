@@ -1,7 +1,7 @@
 // TODO: write your code here
-import sum from './basic';
 
-console.log('worked');
+const holes = document.querySelectorAll('.hole');
 
-console.log(sum([1, 2]));
-
+holes.forEach(hole => hole.addEventListener('click', () => {
+  setInterval(hole.classList.toggle('hole_has-goblin'), 1000)
+}))
