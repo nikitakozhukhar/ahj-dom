@@ -1,0 +1,1 @@
+!function(){"use strict";var o,n;o=1,n=function(o){return document.getElementById("hole".concat(o))},function t(){return setTimeout((function(){var e;n(o).className="hole",e=o=Math.floor(1+16*Math.random()),n(e).classList.contains("hole hole_has-goblin")||(n(e).className="hole hole_has-goblin"),t()}),800)}()}();
